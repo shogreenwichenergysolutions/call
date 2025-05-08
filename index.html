@@ -3,26 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Let's talk!</title>
+  <title>Let's Talk</title>
   <style>
     body {
-      font-family: helvetica neue, helvetica neue;
-      text-align: center;
-      padding-top: 100px;
-      background-color: #f4f4f4;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      color: #333;
     }
+
+    h1, h2, h3 {
+      margin: 5px 0;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #555;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: #777;
+    }
+
     .call-button {
-      font-size: 24px;
-      padding: 15px 30px;
-      background-color: #28a745;
+      margin-top: 30px;
+      font-size: 20px;
+      padding: 14px 28px;
+      background-color: #007BFF;
       color: white;
       border: none;
       border-radius: 8px;
       text-decoration: none;
-      display: inline-block;
+      transition: background-color 0.2s ease;
     }
+
     .call-button:hover {
-      background-color: #218838;
+      background-color: #0056b3;
     }
   </style>
 </head>
@@ -30,6 +58,7 @@
   <h1>Sho Inagaki</h1>
   <h2>Business Development Manager</h2>
   <h3>Greenwich Energy Solutions</h3>
-  <a href="tel:+16469923771" class="call-button">Let's Talk!</a>
+
+  <a href="tel:+16469923771" class="call-button">Let's talk!</a>
 </body>
 </html>
